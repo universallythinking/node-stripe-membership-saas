@@ -33,10 +33,10 @@ Note: Stripe webhooks can be recieved at `https://your-url.com/stripe/events`.
 ```
 heroku create your-awesome-saas-product
 heroku addons:add mongohq
-heroku config:set SESSION_SECRET='your_secret';
-heroku config:set STRIPE_KEY='sk_test_example'
-heroku config:set STRIPE_PUB_KEY='pk_test_example'
-heroku config:set MAILGUN_USER='example.org'
+heroku config:set SESSION_SECRET='sflkasdjflasdfasdfasdf';
+heroku config:set STRIPE_KEY='sk_live_FMML2RvezgxcodYz7u0ccHkj'
+heroku config:set STRIPE_PUB_KEY='pk_live_RLhaNmKbyQdsc7EJjHqrZHdj'
+heroku config:set MAILGUN_USER='mg.swaggeryoutube.com'
 heroku config:set MAILGUN_PASSWORD='key-secret'
 heroku config:set GOOGLE_ANALYTICS='UA-XXXXXX-1'
 ```
